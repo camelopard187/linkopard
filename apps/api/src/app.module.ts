@@ -1,4 +1,7 @@
 import { Module } from "@nestjs/common";
+import { ShortenerModule } from "@/periphery/shortener.module";
 
-@Module({})
+@Module({
+  imports: [ShortenerModule],
+})
 export class AppModule {}
