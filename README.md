@@ -1,6 +1,6 @@
 # What if 🤔
 
-When considering the possibility of scaling a URL shortener service to handle a high volume of requests, it's crucial to approach the challenge from a system architecture perspective. One effective way to improve your service's performance is to restructure the codebase to **incorporate Redis caching**, which will reduce the number of database requests required to create and resolve URLs.
+When considering the possibility of scaling a URL shortener service to handle a high volume of requests, it's crucial to approach the challenge from a system architecture perspective.
 
 1. Scaling can be done vertically or horizontally. Vertical scaling **increases the memory and CPU** of existing instances while horizontal scaling **adds more instances**. Kubernetes can help manage containerized instances. **Load balancers** distribute traffic and **auto-scaling** adds or removes instances for optimal performance.
 
